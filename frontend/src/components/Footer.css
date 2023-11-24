@@ -1,0 +1,56 @@
+.bottomButtons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 40px;
+   
+}
+
+.bottomButtons .replay{
+    padding: 3vw !important;
+    color: teal;
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.3);
+    border-radius: 100px;
+
+}
+
+.bottomButtons .hate{
+    padding: 3vw !important;
+    color: rgba(255, 0, 0, 0.828);
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.3);
+    border-radius: 100px;
+}
+
+.bottomButtons .exit{
+    padding: 3vw !important;
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.3);
+    border-radius: 100px;
+}
+
+.bottomButtons .heart{
+    padding: 3vw !important;
+    color: rgb(29, 219, 29);
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.3);
+    border-radius: 100px;
+}
+
+/* 
+
+.swipeButtons{
+    position: fixed;
+    bottom: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.swipeButtons .MuiIconButton-root{
+    background-color: white;
+    box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) !important; 
+}
+
+.footer-btn-left{
+    padding: 3vw !important;
+    color: red !important;
+} */

@@ -1,0 +1,10 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "player_id_1": { "type": "integer" },
+      "player_id_2": { "type": "integer" }
+    },
+    "additionalProperties": false,
+    "required": ["player_id_1", "player_id_2"]
+  }

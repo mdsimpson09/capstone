@@ -1,0 +1,21 @@
+
+
+.gamer-header {
+    /* padding: 15px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-middle{
+    height: 30px;
+    object-fit: contain;
+    padding: 25px;
+
+}
+.header-icons{
+
+    color: gray;
+    padding: 25px;
+}
+

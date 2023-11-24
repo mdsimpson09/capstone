@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://our.app.com/newPlayer.schema.json",
+  "type": "object",
+  "properties": {
+    "first_name": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 30
+    },
+    "last_name": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 30
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "password": {
+      "type": "string",
+      "minLength": 6
+    },
+    "age": {
+      "type": "integer",
+      "minimum": 18
+    
+    },
+    "preferred_pronouns": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50
+    },
+    "zip_code": {
+      "type": "integer",
+      "minLength": 5
+    }
+  },
+  "required": ["first_name", "last_name", "email", "password", "age", "preferred_pronouns", "zip_code"],
+  "additionalProperties": false
+}

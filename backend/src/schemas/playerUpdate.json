@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://our.app.com/playerUpdate.schema.json",
+  "type": "object",
+  "properties": {
+    "first_name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 30
+    },
+    "last_name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 30
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "password": {
+      "type": "string",
+      "minLength": 6  
+    },
+    "age": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "preferred_language": {
+      "type": "string"
+    },
+    "preferred_pronouns": {
+      "type": "string"
+    },
+    "zip_code": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 10
+    },
+    "logoUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "top_games": {
+      "type": "string"
+    },
+    "preferred_devices": {
+      "type": "string"
+    },
+    "preferred_distance": {
+      "type": "string"
+    },
+    "preferred_pronouns_of_matched": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": []
+}
